@@ -1,0 +1,21 @@
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.video {
+  background-size: cover;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.content h1 {
+  margin-top: 50px;
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 55px;
+  letter-spacing: 3px;
+}
